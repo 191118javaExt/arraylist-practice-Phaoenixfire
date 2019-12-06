@@ -18,7 +18,9 @@ public class Driver {
 			int val = r.nextInt(AMOUNT);
 			reglist.add(val);
 			mylist.add(val);
+			
 		}
+		System.out.println(mylist.toString());
 		
 		long t1 = System.nanoTime();
 		
